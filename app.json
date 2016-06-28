@@ -1,0 +1,21 @@
+{
+  "name": "Testing a Jenkins on Heroku",
+  "description": "To execute a Jenkins application on Heroku.",
+  "keywords": [
+    "testing",
+    "java",
+    "jenkins",
+    "CI"
+  ],
+  "repository": "https://github.com/tabesfdc/jenkins",
+  "success_url": "/",
+  "image": "heroku/java",
+  "addons": [
+    "heroku-postgres"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ]
+}
