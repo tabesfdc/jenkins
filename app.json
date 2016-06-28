@@ -11,7 +11,7 @@
   "success_url": "/",
   "image": "heroku/java",
   "addons": [
-    "heroku-postgres"
+    "heroku-postgresql"
   ],
   "buildpacks": [
     {
